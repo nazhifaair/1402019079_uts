@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EDU-Covid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="kuis.js" type = "text/javascript"> </script>
+   
+  </head>
+  <body>
+    <div class="project">
+    <H2>EDU-Covid</H2>
+  </div>
+    <input type="checkbox" id="check">
+    <label for="check">
+       <i class="fas fa-angle-double-left fa-lg" id="cancel"></i>
+      <i class="fa fa-bars fa-lg" id="btn"></i>
+    </label>
+    <div class="sidebar">
+  <ul>
+     <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+    <li><a href="pencegahan.html"><i class="fa fa-user-plus"></i>Cegah Covid-19</a></li>
+    <li><a href="data.html"><i class="fa fa-database"></i>Data Statistik</a></li>
+    <li><a href="kuis.html"><i class="fa fa-question"></i>Kuis</a></li>
+    <li><a href="kontak.html"><i class="fa fa-envelope"></i>Kontak</a></li>
+  </ul>
+</div>
+<form name = "kuis" id= "kuis">
+    <div class="kuis">
+      <H1 style="padding-top: 50px; padding-bottom: 50px; text-align: center;">Yuk, Cari Tau Seberapa Kenalnya Kalian Dengan Covid-19!</H1>
+      <br><br>
+      <p> 1. Apa nama ilmiah dari virus corona?
+      <p><input type="radio" name="soal1" value="COVID-19">A. COVID-19</p>
+      <p><input type="radio" name="soal1" value="SARS-CoV-2">B. SARS-CoV-2</p>
+      <p><input type="radio" name="soal1" value="Novel Coronavirus">C. Novel Coronavirus</p>
+    </div>
+
+    <div class="kuis">
+      <br><br>
+      <p> 2. Apa nama test cepat untuk pengambilan sample darah COVID-19?
+      <p><input type="radio" name="soal2" value="Rapid Test">A. Rapid Test</p>
+      <p><input type="radio" name="soal2" value="PCR">B. PCR</p>
+      <p><input type="radio" name="soal2" value="Vaksin">C. Vaksin</p>
+    </div>
+
+     <div class="kuis">
+      <br><br>
+      <p> 3. Apa Kepanjangan dari ODP?
+      <p><input type="radio" name="soal3" value="Orang Dalam Pemantauan">A. Orang Dalam Pemantauan</p>
+      <p><input type="radio" name="soal3" value="Orang Dengan Penyakit">B. Orang Dengan Penyakit</p>
+      <p><input type="radio" name="soal3" value="Orang Dalam Pengawasan">C. Orang Dalam Pengawasan</p>
+    </div>
+
+    <div class="kuis">
+      <br><br>
+      <p> 4. Langkah yang bisa kita lakukan untuk mencegah penularan COVID-19?
+      <p><input type="radio" name="soal4" value="Mencuci Tangan">A. Mencuci Tangan</p>
+      <p><input type="radio" name="soal4" value="Berkerumun">B. Berkerumun</p>
+      <p><input type="radio" name="soal4" value="Menjaga Hati">C. Menjaga Hati</p>
+    </div>
+
+    <div class="kuis"; style = "padding-bottom: 50px">
+      <br><br>
+      <p> 5. Berikut yang bukan tindakan pencegahan korona adalah?
+      <p><input type="radio" name="soal5" value="Banyak mengonsumsi buah dan sayur">A. Banyak mengonsumsi buah dan sayur</p>
+      <p><input type="radio" name="soal5" value="Berpikir positif">B. Berpikir positif</p>
+      <p><input type="radio" name="soal5" value="Liburan keluar kota">C. Liburan keluar kota</p>
+    </div>
+    
+    <input type= "button" name= "" value = "Selesai" id="button" onclick="check()" style="float: right; color: white; background-color: #993333; font-size: 30px" >
+      
+    </H1>
+    </form>
+    </div>
+    </section>
+
+    <p id="result"></p>
+  </body>
+</html>
